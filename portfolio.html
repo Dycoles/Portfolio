@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">  
+    <meta name="milestone" content="Portfolio">
+    <!-- TODO: Replace this with your title -->
+    <title>Professional Website</title>  
+    <!-- 
+			TODO: Add Bootstrap CSS link tag from: 
+      https://getbootstrap.com/docs/5.2/getting-started/introduction/
+		-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+    <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Custom styles (these can extend the default Bootstrap styles) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <span id="home"></span>
+    <!-- TODO: Paste Navbar code and customize links -->  
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#home">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#m-anchor">Mission</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#s-anchor">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#p-anchor">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#c-anchor">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+    <!-- Hero section -->
+  	<section id="hero-section">
+      <div class="container">
+        <img src="img/selfie-pic.JPG" alt="profile pic" id="profile-image">
+        <div class="content-h">
+          <h1>Dylan Nicholas Coles</h1>
+        </div>
+      </div>
+  	</section>
+    
+  	<!-- Mission/Meet-me section -->
+    <section id="mission-section">
+      <header class="display-6">About Me</header>
+      <span id="m-anchor"></span>
+      <div class="container-fluid container-md text-center">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <img src="img/pexels-danny-meneses-943096.jpg" alt="..." id="mission-img">
+          </div>
+          <div class="col-12 col-md-6"><p id="m-statement">My name is Dylan Coles. I am a Computer Science major with a minor in Game Development at the University of Arizona. I’m passionate about combining technical problem-solving with creativity to build innovative solutions and engaging experiences.
+
+            My academic journey has equipped me with a strong foundation in programming, algorithms, and software development, and my time spent doing Game Development has fueled my creativity and problem solving skills. </p></div>
+        </div>
+      </div>
+  	</section>
+  
+    <!-- Skills section -->
+    <section id="skills-section">
+      <header class="display-6">Skills</header>
+      <span id="s-anchor"></span>
+      <div class="container-fluid container-md text-center">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="img/html-5.png" alt="..." id="skills">
+            <p>Structuring the web's content using modern semantic HTML.</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="img/css.png" alt="..." id="skills">
+            <p>Presenting detailed and beautiful web designs using modern CSS.</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="img/bootstrap.png" alt="..." id="skills">
+            <p>Rapidly developing modern websites using Bootstrap's extensive library.</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="img/html-5.png" alt="..." id="skills">
+            <p>Javascript.</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="img/html-5.png" alt="..." id="skills">
+            <p>Java</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="img/html-5.png" alt="..." id="skills">
+            <p>C#</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="img/html-5.png" alt="..." id="skills">
+            <p>C++</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="img/python.png" alt="..." id="skills">
+            <p>Using python to create simple programs as well as interactive experiences, games, and more.</p>
+          </div>
+        </div>
+      </div>
+  	</section>
+
+    <!-- Projects Section -->
+    <section id="projects-section">
+      <header class="display-6">Projects</header>
+      <span id="p-anchor"></span>
+      <div class="container-fluid container-md text-center">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <!-- Implement links and images here-->
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Contact Section -->
+    <section id="contact-section">
+      <header class="display-6">Contact</header>
+      <span id="c-anchor"></span>
+      <div class="container-fluid container-md text-center">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <a href="mailto: colesdylan12@gmail.com"><i class="bi bi-envelope"></i></a>
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="https://www.linkedin.com/in/dycoles/"><i class="bi bi-linkedin"></i></a>
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="https://instagram.com/shaggyschmacky?igshid=MmIzYWVlNDQ5Yg== "><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Footer section -->
+    <section id="footer-section">
+      <hr>
+      <footer>&copy Dylan Coles 2023</footer>
+    </section>
+  
+    <!-- 
+  		TODO: Paste Bootstrap JavaScript script tag from:
+  		https://getbootstrap.com/docs/5.2/getting-started/introduction/
+  	-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
