@@ -1,0 +1,125 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+.navbar-nav {
+  margin-left: 45vw;
+}
+
+.navbar-brand {
+  margin-left: 15vw;
+}
+
+#m-anchor,
+#s-anchor,
+#c-anchor,
+#p-anchor
+{
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+body {
+  position: relative;
+  background-color: #454545;
+}
+
+#hero-section {
+  background-image: 
+    linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)),
+url("img/pexels-sarah-howell-569202.jpg");
+  min-height: 100vh;
+  background-position: center, center;
+  background-repeat: no-repeat;
+  background-size: cover, cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile-image {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-h {
+  text-align: center;
+  color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#desc {
+  font-style: italic;
+}
+
+#footer-section {
+  text-align: center;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+  padding: 25px;
+}
+
+#mission-img {
+  max-height: 300px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#mission-section {
+  background-color: #454545;
+  color: white;
+  text-align: center;
+}
+
+#skills {
+  max-height: 100%;
+  width: 35%;
+  margin-bottom: 20px;
+}
+
+#skills-section {
+  background-color: lightgray;
+}
+
+#projects-section {
+  background-color: #454545;
+  color: white;
+}
+
+#contact-section {
+  background-color: lightgray;
+}
+
+i {
+  font-size: 50px;
+  color: grey;
+  transition-duration: 0.5s;
+}
+
+i:hover {
+  color: cyan;
+  font-size: 65px;
+  transition-duration: 0.5s;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#m-statement {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
