@@ -2,15 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-
-function HelloWorld() {
-  return <h1 className="text-3xl font-bold underline"> Hello world! </h1>
-}
+import Navbar from './components/navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HelloWorld></HelloWorld>
+    <Navbar></Navbar>
   </React.StrictMode>
 );
 
