@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/navbar';
+import Hero from './components/hero';
+import AboutMe from './components/about_me';
+import Skills from './components/skills';
+import Projects from './components/projects';
+import Contact from './components/contact';
+import Credits from './components/credits';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar></Navbar>
+    <Hero></Hero>
+    <AboutMe></AboutMe>
+    <Skills></Skills>
+    <Projects></Projects>
+    <Contact></Contact>
+    <Credits></Credits>
   </React.StrictMode>
 );
 
