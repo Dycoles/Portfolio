@@ -1,6 +1,6 @@
 function Contact() {
     return (
-        <section id="contact" className="p-8 bg-white">
+        <section id="contact" className="p-8 bg-white scroll-mt-20">
             <h2 className="text-2xl font-bold mb-4">Contact</h2>
         </section>
     );
