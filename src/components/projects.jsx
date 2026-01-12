@@ -3,6 +3,9 @@ import corgiQuestPic from "../assets/project_images/corgi-quest-pic.png";
 import jungleEscapePic from "../assets/project_images/jungle-escape.png";
 import untilDawnOrDeathPic from "../assets/project_images/game-pic-3.png";
 import java2048Pic from "../assets/project_images/2048-pic.png";
+import coffeePic from "../assets/project_images/coffee-pic.png";
+import az_holdem_pic from "../assets/project_images/az_holdem.png";
+import spellcheckerPic from "../assets/project_images/spellchecker_img.png";
 
 const projects = [
     {
@@ -27,19 +30,19 @@ const projects = [
     {
         title: "Coffee Fanatics Website (HTML/CSS/Javascript)",
         github: "https://github.com/dmknapp2385/coffeeFanatics",
-        image: "/images/project4.png",
+        image: coffeePic,
         description: "\"Coffee Fanatics\" is a website developed as a final project for one of my Web Development classes. It features a home page that gives information about the website, a beans page which informs the user about different types of coffee beans, several pages informing the user about brewing techniques, a page that shows you local caffes, a page that shows you some coffee making products, and a page that allows the user to save custom brews. This website makes extensive use of HTML, CSS, and Javascript",
     },
     {
         title: "Spellchecker (Java)",
         github: "https://github.com/ua-ben/csc345-group-final",
-        image: "/images/project5.png",
+        image: spellcheckerPic,
         description: "This spellchecker program developed in Java allows the user to input a word. If the word is correctly spelled, nothing happens. However, if the word is incomplete or misspelled, the program alerts the user and then suggests several words that the user may have been trying to spell.",
     },
     {
         title: "Texas Holdem (Java)",
         github: "https://github.com/CSC210-Arizona/azholdem-Dycoles",
-        image: "/images/project6.png",
+        image: az_holdem_pic,
         description: "This Texas holdem program allows the user to play several rounds of Texas holdem against a variable amount of other opponents depending on input. Each round, each player is dealt a hand. Afterwards, the river is dealt out from the remaining cards in the deck. Whichever player wins will gain money while the others will lose money. After the game concludes, the player is prompted to either continue or quit.",
     },
     {
@@ -48,12 +51,6 @@ const projects = [
         image: java2048Pic,
         description: "This program allows the user to play the puzzle game 2048. When the code is run, it displays a GUI for 2048. The rules for the game are simple: Combine numbers until those numbers add up to 2048. If the board fills up, the player loses. The player's score is then recorded and stored in a Leaderboard.",
     },
-    {
-        title: "Project Eight",
-        github: "https://github.com/Dycoles/Project-Eight",
-        image: "/images/project8.png",
-        description: "Description for project eight.",
-    }
 ];
 function Projects() {
     return (
