@@ -20,7 +20,7 @@ import { DiDotnet } from "react-icons/di"; // ← C# / .NET
 
 function Skills() {
     return (
-        <section id="skills" className="p-8 bg-white scroll-mt-20 text-center">
+        <section id="skills" className="p-8 scroll-mt-20 text-center">
             <h2 className="text-2xl font-bold mb-4">Skills</h2>
             <div className="grid grid-cols-4 grid-rows-3 gap-4 text-5xl justify-items-center">
                 <FaHtml5 className="text-orange-500"/>

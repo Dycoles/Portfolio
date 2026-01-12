@@ -57,7 +57,7 @@ const projects = [
 ];
 function Projects() {
     return (
-        <section id="projects" className="p-8 bg-white scroll-mt-20">
+        <section id="projects" className="p-8 scroll-mt-20">
             <h2 className="text-2xl font-bold mb-4 text-center">Projects</h2>
             <div className="space-y-12">
                 {projects.map((project, index) => (
