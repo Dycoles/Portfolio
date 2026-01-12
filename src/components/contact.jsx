@@ -1,7 +1,13 @@
+import { BsEnvelope, BsLinkedin, BsGithub } from 'react-icons/bs';
 function Contact() {
     return (
-        <section id="contact" className="p-8 bg-white scroll-mt-20">
-            <h2 className="text-2xl font-bold mb-4">Contact</h2>
+        <section className="p-8 bg-white text-center" id="contact">
+            <h2 className="text-2xl font-bold mb-8">Contact</h2>
+            <div className="flex justify-center gap-60 text-4xl">
+                <a className="hover:text-blue-600" href="mailto:colesdylan12@gmail.com"><BsEnvelope /></a>
+                <a className="hover:text-blue-600" href="https://www.linkedin.com/in/dycoles/"><BsLinkedin /></a>
+                <a className="hover:text-blue-600" href="https://github.com/dycoles"><BsGithub /></a>
+            </div>
         </section>
     );
 }
