@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.39dbed1d.css",
-    "main.js": "/portfolio/static/js/main.53536913.js",
-    "static/js/453.fe8ccc81.chunk.js": "/portfolio/static/js/453.fe8ccc81.chunk.js",
-    "static/media/profile-pic.jpg": "/portfolio/static/media/profile-pic.e8abe5e19a2226906b02.jpg",
-    "static/media/hero-bg.jpg": "/portfolio/static/media/hero-bg.947473196a9e259cc160.jpg",
-    "static/media/corgi-quest-pic.png": "/portfolio/static/media/corgi-quest-pic.d0996d90c7f721061c9e.png",
-    "static/media/game-pic-3.png": "/portfolio/static/media/game-pic-3.b671f24b9c65a8adc532.png",
-    "static/media/coffee-pic.png": "/portfolio/static/media/coffee-pic.3cc0eaa2193849175f14.png",
-    "static/media/2048-pic.png": "/portfolio/static/media/2048-pic.f5574581cfeb4f714004.png",
-    "static/media/jungle-escape.png": "/portfolio/static/media/jungle-escape.01d66697d2e581875e30.png",
-    "static/media/az_holdem.png": "/portfolio/static/media/az_holdem.eac0cb0b3ba9641650e1.png",
-    "static/media/spellchecker_img.png": "/portfolio/static/media/spellchecker_img.660fec35af00cf75ac43.png",
-    "index.html": "/portfolio/index.html",
-    "main.39dbed1d.css.map": "/portfolio/static/css/main.39dbed1d.css.map",
-    "main.53536913.js.map": "/portfolio/static/js/main.53536913.js.map",
-    "453.fe8ccc81.chunk.js.map": "/portfolio/static/js/453.fe8ccc81.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.39dbed1d.css",
+    "main.js": "/Portfolio/static/js/main.ca5d120c.js",
+    "static/js/453.fe8ccc81.chunk.js": "/Portfolio/static/js/453.fe8ccc81.chunk.js",
+    "static/media/profile-pic.jpg": "/Portfolio/static/media/profile-pic.e8abe5e19a2226906b02.jpg",
+    "static/media/hero-bg.jpg": "/Portfolio/static/media/hero-bg.947473196a9e259cc160.jpg",
+    "static/media/corgi-quest-pic.png": "/Portfolio/static/media/corgi-quest-pic.d0996d90c7f721061c9e.png",
+    "static/media/game-pic-3.png": "/Portfolio/static/media/game-pic-3.b671f24b9c65a8adc532.png",
+    "static/media/coffee-pic.png": "/Portfolio/static/media/coffee-pic.3cc0eaa2193849175f14.png",
+    "static/media/2048-pic.png": "/Portfolio/static/media/2048-pic.f5574581cfeb4f714004.png",
+    "static/media/jungle-escape.png": "/Portfolio/static/media/jungle-escape.01d66697d2e581875e30.png",
+    "static/media/az_holdem.png": "/Portfolio/static/media/az_holdem.eac0cb0b3ba9641650e1.png",
+    "static/media/spellchecker_img.png": "/Portfolio/static/media/spellchecker_img.660fec35af00cf75ac43.png",
+    "index.html": "/Portfolio/index.html",
+    "main.39dbed1d.css.map": "/Portfolio/static/css/main.39dbed1d.css.map",
+    "main.ca5d120c.js.map": "/Portfolio/static/js/main.ca5d120c.js.map",
+    "453.fe8ccc81.chunk.js.map": "/Portfolio/static/js/453.fe8ccc81.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39dbed1d.css",
-    "static/js/main.53536913.js"
+    "static/js/main.ca5d120c.js"
   ]
 }
