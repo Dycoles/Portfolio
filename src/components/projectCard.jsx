@@ -21,7 +21,7 @@ function ProjectCard({ title, github, itch, image, description }) {
                     )}
                 </div>
 
-                <p className="text-lg leading-relaxed">{description}</p>
+                <p className="text-lg leading-relaxed indent-8">{description}</p>
             </div>
         </div>
     );

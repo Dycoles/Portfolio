@@ -55,8 +55,8 @@ const projects = [
 function Projects() {
     return (
         <section id="projects" className="p-8 scroll-mt-20">
-            <h2 className="text-2xl font-bold mb-4 text-center">Projects</h2>
-            <div className="space-y-12">
+            <h2 className="text-2xl font-bold mb-10 text-center">Projects</h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                 {projects.map((project, index) => (
                     <ProjectCard 
                         key={index}
